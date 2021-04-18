@@ -6,6 +6,6 @@
     background-color:lightgoldenrodyellow;
     background-size: cover;
     width: 200px;
-    height: 100vh;
+    height: calc(100vh - 50px);
     transition: all 280ms ease-in-out; 
 }

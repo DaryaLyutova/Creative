@@ -1,7 +1,5 @@
-// const menu = document.querySelector('.info__navigation');
 const menuButton = document.querySelector('.header__button');
 const menu = document.querySelector('.navigation');
-// const closeButton = document.querySelector('.navigation__close')
 const linksSubtitle = ["", "Личный кабинет", "Корзина"];
 const money = document.querySelector('.profile__money');
 const profile = document.querySelector('.header__subtitle');
@@ -17,8 +15,14 @@ setTimeout(function random() {
     } else { 
         profile.textContent = linksSubtitle[1];
         like.textContent = linksSubtitle[2];
-    }
-    setTimeout(random, 1000);
+    };
+
+    if (window.screen.availWidth < 1200) {
+        menu.classList.add('navigation_visible');
+    } else { 
+        menu.classList.remove('navigation_visible');
+    };
+    // setTimeout(random, 1000);
 }, 1000);
 
 menuButton.addEventListener('click', () => {

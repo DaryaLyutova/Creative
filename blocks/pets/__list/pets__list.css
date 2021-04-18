@@ -1,0 +1,16 @@
+.pets__list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    font-family: 'Myriad Pro Regular';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000;
+    margin: 30px 20px;
+    padding: 0;
+    max-width: 650px;
+}

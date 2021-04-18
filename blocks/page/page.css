@@ -5,4 +5,5 @@
     justify-content: center;
     transition-duration: 0.3s;
     background-color: ivory;
+    max-width: 1280px;
 }

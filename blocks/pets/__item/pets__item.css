@@ -1,0 +1,9 @@
+.pets__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    border: 1px solid peru;
+    border-radius: 10px;
+    overflow: hidden;
+}
