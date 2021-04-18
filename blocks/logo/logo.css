@@ -1,0 +1,19 @@
+.logo {
+    width: 30px;
+    height: 30px;
+    margin-left: 24px;
+    background-image: url(../../images/dog_animal_pet_creature_animals_icon_183002.svg);
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 1040px) {
+    .logo {
+        margin-left: 14px;
+    }
+}
+
+@media all and (max-width: 500px) {
+    .logo {
+        margin-left: 10px;
+    }
+}

@@ -1,0 +1,6 @@
+.navigation_visible {
+    overflow-y: hidden;
+    transition: transform 1000ms ease-in 0s;
+    left: 0;
+    transform: translateX(-100%);
+}

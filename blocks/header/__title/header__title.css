@@ -1,0 +1,25 @@
+.header__title {
+    font-family: 'Myriad Pro Regular';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: white;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    letter-spacing: 0.5px;
+}
+
+@media screen and (max-width: 1040px) {
+    .header__title {
+        font-size: 16px;
+        line-height: 18px;
+    }
+}
+
+@media all and (max-width: 500px) {
+    .header__title {
+        font-size: 12px;
+        line-height: 14px;
+    }
+}

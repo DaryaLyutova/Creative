@@ -1,0 +1,9 @@
+.navigation__item {
+    text-decoration: none;
+    font-family: 'Myriad Pro Regular';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000;
+    margin-top: 15px;
+}

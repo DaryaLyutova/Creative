@@ -1,0 +1,27 @@
+.header__info {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: ivory;
+    padding: 0;
+    margin: 0;
+    justify-content: start;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+@media screen and (max-width: 1040px) {
+    .header__info {
+        font-size: 12px;
+        line-height: 15px;
+    }
+}
+
+
+@media screen and (max-width: 769px) {
+    .header__info {
+        margin: 10px;
+    }
+}
