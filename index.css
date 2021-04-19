@@ -24,3 +24,4 @@
 @import url(./blocks/pets/__list/pets__list.css);
 @import url(./blocks/pets/__image/pets__image.css);
 @import url(./blocks/pets/__item/pets__item.css);
+@import url(./blocks/pets/__item/_visible/pets__item_visible.css);
